@@ -157,10 +157,6 @@ li {
   padding: 5px 5px 0px 5px;
 }
 
-.middle_box_heading a:hover {
-  background-color: #2fc1da;
-}
-
 .middle_box_left_btn,
 .middle_box_right_btn {
   text-align: center;
@@ -175,17 +171,25 @@ li {
 .all_members,
 .new_entries {
   margin-left: 15%;
-  width: 145px;
-  background-color: #dddddd;
+  background: url(../images/grey_btn.png) no-repeat;
+  background-size: cover;
 }
 
 .friends,
 .new_comments {
   margin-right: 15%;
   width: 145px;
-  background-color: #dddddd;
+  background: url(../images/grey_btn.png) no-repeat;
+  background-size: cover;
 }
 
+.friends:hover,
+.new_comments:hover,
+.all_members:hover,
+.new_entries:hover {
+  background: url(../images/blue_btn.png) no-repeat;
+  background-size: cover;
+}
 .peoples {
   text-align: center;
   margin-top: 20px;
@@ -656,5 +660,9 @@ li {
 
   .nav_top {
     padding: 20px;
+  }
+  .inner_footer {
+    padding-left: 30px;
+    padding-right: 10px;
   }
 }
