@@ -195,12 +195,13 @@ li {
   background-size: cover;
 }
 .peoples {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 }
 
 .image_container {
   float: none;
+  margin-left: 20px;
 }
 
 .info_container {
