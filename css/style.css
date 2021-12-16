@@ -40,9 +40,10 @@ li {
   text-align: center;
   padding: 20px;
 }
-/* .nav_top span {
-  display: block;
-} */
+.inner_nav_top {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .inner_nav_down {
   display: none;
 }
@@ -85,7 +86,7 @@ li {
   margin-left: 20px;
   font-size: 18px;
   line-height: 40px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .left_top_results_list img {
@@ -96,7 +97,7 @@ li {
 .left_down_results_list li {
   font-size: 18px;
   line-height: 40px;
-  font-weight: bold;
+  font-weight: normal;
   margin-left: 20px;
 }
 
@@ -113,7 +114,7 @@ li {
 .video_tutorials_list li {
   font-size: 18px;
   line-height: 40px;
-  font-weight: bold;
+  font-weight: normal;
   margin-left: 20px;
 }
 
@@ -275,6 +276,8 @@ li {
   }
   .inner_nav_down {
     display: block;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .goto {
     display: none;
@@ -481,10 +484,6 @@ li {
     display: inline;
   }
 
-  .inner_main {
-    width: 100%;
-  }
-
   .left_box {
     width: 21%;
     height: 81vh;
@@ -495,23 +494,26 @@ li {
     height: 81vh;
   }
 
-  .middle_box {
-    width: 47%;
-    margin-right: 3%;
-    height: 81vh;
-  }
   .recent_search_btn {
     display: none;
   }
 
   .recent_searches a {
     font-size: 18px;
+    font-weight: normal;
   }
   .left_top_results_list li {
     font-size: 14px;
   }
+
+  .left_top_results_list img {
+    margin-right: 10px;
+  }
   .left_down_results_list li {
     font-size: 14px;
+  }
+  .left_down_results_list img {
+    margin-right: 10px;
   }
   .video_tutorials_list li a {
     font-size: 14px;
@@ -626,10 +628,29 @@ li {
   .inner_nav_down,
   .inner_main,
   .inner_footer {
-    width: 70%;
+    width: 62%;
+    min-width: 1002px;
+    margin: auto;
   }
 
-  .inner_nav_top {
-    margin: auto;
+  .middle_box {
+    min-width: 505px;
+    max-width: 47%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .nav_down_right {
+    margin-right: 0px;
+  }
+  .nav_down_left_list {
+    margin-left: 0px;
+  }
+
+  .nav_top {
+    padding: 0px;
+  }
+  .inner_main {
+    margin-top: 35px;
   }
 }
