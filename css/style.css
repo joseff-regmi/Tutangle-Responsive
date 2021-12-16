@@ -653,4 +653,8 @@ li {
   .inner_main {
     margin-top: 35px;
   }
+
+  .nav_top {
+    padding: 20px;
+  }
 }
